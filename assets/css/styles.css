@@ -1,0 +1,515 @@
+body
+{
+	background: rgba(0,0,0,0.03) url(../wod.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color: #666;
+	font: 16px;
+	font-family: arial, helvetica;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+
+nav
+{
+	background: #eaeaea;
+	box-shadow: 0 0 1px rgba(0,0,0,0.8);
+	height: auto;
+	padding: 0.4em;
+	text-align: left;
+	width: auto;
+}
+
+footer
+{
+	background: #eaeaea;
+	border-radius: 100% 0 0 0;
+	box-shadow: 10px 0 2px rgba(0,0,0,0.4);
+	bottom: 0;
+	position: fixed;
+	text-align: right;
+	width: 100%;
+}
+
+footer p
+{
+	color: #999;
+	padding-right: 2em;
+	vertical-align: center;
+}
+
+section
+{
+	margin: 0 auto ;
+	margin-bottom: 100px;
+	min-width: 600px;
+	min-height:100%;
+	padding: 1em;
+	text-align: center;
+	width: auto;
+}
+
+
+/*+++++++++++++++++++ARTICLE+++++++++++++++++++++++++++*/
+article
+{
+	background: white;
+	box-shadow: 0 0 1em rgba(0,0,0,0.2);
+	display: inline-block;
+	height: auto;
+	margin: 6px;
+	vertical-align: top;
+	width: 220px;
+}
+
+article:hover
+{
+	box-shadow: 0 0 1em rgba(120,30,220,0.5);
+	margin-top: 0.01em;
+}
+
+article img
+{
+	/*border: 1px solid #eee;*/
+	height: auto;
+	margin: 10px 0;
+	max-width: 200px;
+	width: auto;
+}
+
+article ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+article li
+{
+	color: #999;
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: normal;
+	list-style: none;
+	padding-bottom: 0.5em;
+	padding-right: 1em;
+}
+
+article .titulo
+{
+	background: rgba(120,30,220,1);
+	background: blak;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-radius: 0 0 100% 0;
+	box-shadow: 0 -1px 1px rgba(0,0,0,0.2) inset;
+	color: #eee;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0;
+	padding: 1em;
+	padding-right: 40px;
+	text-align: left;
+}
+
+article  a
+{
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+article  a:hover
+{
+	color: rgba(100,30,220,1);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+article .status
+{
+	background: #fafafa;
+	border: 1px solid  #eee;
+	height: auto; 
+	margin: 0 auto;
+	padding: 2px 10px;
+	text-align: left;
+	width: auto;
+}
+
+article .status li
+{
+	height: auto;
+	padding: 0.5em;
+	vertical-align: top;
+}
+
+/*++++++++++++++++FIN ARTICLE+++++++++++++++++++++++++++*/
+
+.logo
+{
+	width: 200px;
+}
+
+.logofooter
+{
+	margin-left: 1em;
+	width: 160px;
+}
+
+/*++++++++++++++++COMENTARIOS+++++++++++++++++++++++++*/
+
+.comentarios
+{
+	background: #f9f9f9;
+	height: auto;
+	margin: 0;
+	text-align: left;
+	width: 100%;
+}
+
+.comentarios .entrada
+{
+	border-top: 1px solid #fefefe;
+	border-bottom: 1px solid  #ddd;
+	padding: 0.5em;
+}
+
+.comentarios .ver-comentarios
+{
+	background: rgba(100,30,220,0.03);
+	border-top: 1px solid #f9f9f9;
+	border-bottom: 1px solid  #ddd;
+	color: rgba(100,30,220,1);
+	font-size: 0.8em;
+	font-weight: normal;
+	height: auto;
+	padding: 0.5em;
+	text-align: center;
+	width: auto;
+}
+
+.comentarios img
+{
+	display: inline-block;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	width: 40px;
+}
+
+.comentarios p
+{
+	width: 70%;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0 0 0 10px;
+	display: inline-block;
+}
+
+article .icono
+{
+	height: 1.4em; 
+	margin: 0 auto;
+	padding: 0px 3px;
+	vertical-align: top;
+	width: 1.4em;
+}
+
+/*++++++++++++++++FIN COMENTARIOS++++++++++++++++++++++*/
+
+
+
+
+/*+++++++++++++++++++DASHBOARD DRINKS+++++++++++++++++++++++++++*/
+#dashboard_drinks
+{
+	color: #666;
+	height: auto;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+	width: 100%;
+	max-width: 1300px;
+}
+
+#dashboard_drinks a, #dashboard_drinks ul, #dashboard_drinks li
+{
+	color: #888;
+	font-weight: normal;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+}
+
+#dashboard_drinks .comentarios
+{
+	//border: 1px solid rgba(0,0,0,0.2);
+	display: inline-block;
+	height: auto;
+	margin: 1em;
+	max-width: 300px;
+	text-align: left;
+	vertical-align: top;
+	width:33%;
+}
+
+#dashboard_drinks .comentarios .entrada
+{
+	background: rgba(0,0,0,0.02);
+	border: 1px solid  #ddd;
+	border-top: 1px solid #fefefe;
+	display: inline-block;
+	margin:0 auto;
+	padding: 0;
+	text-align: left;
+	width: 98%;
+}
+
+#dashboard_drinks .comentarios .entrada img
+{
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 0.2em 0 0.2em 0.2em;
+	padding: 0.2em;
+	text-align: left;
+	vertical-align: top;
+	width: 40px;
+}
+
+#dashboard_drinks .comentarios .entrada div
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 80%;
+}
+
+#dashboard_drinks .comentarios .entrada div p
+{
+	display: block;
+	margin:0;
+	padding: 0.2em;
+	text-align: left;
+	width: 100%;
+}
+
+#dashboard_drinks .comentarios form
+{
+	//border-bottom: 1px solid rgba(0,0,0,0.2);
+	display: block;
+	margin: 0;
+	max-width: 100%;
+	min-width: 100%;
+	padding: 0.2em 0 1em 0;
+	text-align: right;
+}
+
+#dashboard_drinks .comentarios form textarea
+{
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.2) inset;
+	display: block;
+	margin: 0.5em;
+	width: 96%;
+	max-width: 96%;
+	min-height: 5em;
+	padding: 0.5em;
+	text-align: left;
+}
+#dashboard_drinks .drink
+{
+	//border: 1px solid rgba(0,0,0,0.1);
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 300px;
+	padding: 1em 0;
+	text-align: left;
+	vertical-align: top;
+	width:33%;
+}
+
+#dashboard_drinks .drink .foto_drink
+{
+	border: 1px solid rgba(0,0,0,0.1);
+	margin: 0 auto;
+	padding: 0.2em;
+	width: 200px;
+}
+
+#dashboard_drinks .drink .icono
+{
+	height: 1.4em; 
+	margin: 0 auto;
+	padding-right: 0.5em;
+	vertical-align: top;
+	width: 1.4em;
+}
+ 
+
+#dashboard_drinks .drink li
+{
+	margin: 1em;
+	text-align: left;
+}
+
+#dashboard_drinks .info
+{
+	background: rgba(255,255,255,0.7);
+	border: 1px solid rgba(0,0,0,0.1);
+	border-top: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.2) inset;
+	display: inline-block;
+	height: 100%;
+	max-width: 600px;
+	min-width: 300px;
+	padding: 0 1em 2em 1em;
+	text-align: left;
+	vertical-align: top;
+	width:100%;
+}
+
+#dashboard_drinks .info .like_bar
+{
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	width:100%;
+}
+
+#dashboard_drinks .info .like_bar ul li
+{
+	display: inline-block;
+}
+
+#dashboard_drinks .info .like_bar img
+{
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 0 auto;
+	padding: 0.3em;
+	width: 60px;
+}
+
+#dashboard_drinks .titulo 
+{
+	color: rgba(0,0,0,0.7);
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#dashboard_drinks .nombre_usr
+{
+	color: rgba(0,0,0,0.7);
+	font-weight: bold;
+}
+
+
+/*+++++++++++++++++++DASHBOARD USER+++++++++++++++++++++++++++*/
+
+#dashboard_user
+{
+	color: #666;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#dashboard_user #info_user
+{
+	background: rgba(255,255,255,0.8);
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.2) inset;
+	display: inline-block;
+	margin: 2em;
+	max-width: 1300px;
+	min-width: 300px;
+	padding: 1em;
+	text-align: left;
+	width: auto;
+}
+
+#dashboard_user #info_user div
+{
+	//background: green;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	vertical-align: middle;
+	width: auto;
+}
+
+#dashboard_user #info_user div li
+{
+	//background: yellow;
+	display: inline-block;
+	margin: 0.5em;
+	vertical-align: middle;
+}
+
+#dashboard_user #info_user div li img
+{
+	//background: gray;
+	display: inline-block;
+	margin: 0.2em;
+	vertical-align: middle;
+	width: 30px;
+}
+
+#dashboard_user #info_user img
+{
+	//background: gray;
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+	width: 100px;
+}
+
+#dashboard_user #info_user ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+#dashboard_user #info_user .titulo
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0 0.5em;
+	margin: 0;
+}
+
+#dashboard_user #nav_user
+{
+	background: #eaeaea;
+	box-shadow: 0 0 1px rgba(0,0,0,0.8);
+	height: auto;
+	margin: 0 auto;
+	padding: 0.4em;
+	text-align: center;
+	width: 100%;
+}
+
+#dashboard_user #nav_user ul
+{
+	//background: green;
+	display: inline-block;
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#dashboard_user #nav_user ul li
+{
+	//background: yellow;
+	display: inline-block;
+	margin: 0.2em;
+	width: auto;
+}
+
+#dashboard_user #nav_user ul li a
+{
+	color: #666;
+}
